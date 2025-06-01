@@ -1,4 +1,4 @@
-# Apartment Management System Database
+# Apartment Database Management System 
 
 ## Overview
 
@@ -53,10 +53,10 @@ The database includes various stored procedures to perform specific actions:
 * **Residents:**
     * `usp_Get_AvailableResidents`: Retrieves residents based on criteria.
     * `usp_Get_UnreadResidentNotifications`: Retrieves unread notifications for a resident.
-    * `usp_POST_ResidentInformation-V1/V2`: Manages resident information (insert, update, delete). (V2 includes auditing)
+    * `usp_POST_ResidentInformation`: Manages resident information (insert, update, delete).
 * **Maintenance Staff:**
     * `usp_Get_AvailableMaintenanceStaff`: Retrieves available maintenance staff.
-    * `usp_POST_MaintenanceStaffInformation-V1/V2`: Manages maintenance staff information. (V2 includes auditing)
+    * `usp_POST_MaintenanceStaffInformation`: Manages maintenance staff information.
 * **Maintenance Requests:**
     * `usp_Get_MaintenanceRequests`: Retrieves maintenance requests for a flat.
     * `usp_Get_WorkAssignments`: Retrieves work assignments.
@@ -64,8 +64,8 @@ The database includes various stored procedures to perform specific actions:
     * `usp_POST_LogMaintenanceRequest`: Logs a new maintenance request.
     * `usp_POST_UpdateMaintenanceRequestStatus`: Updates the status of a request.
 * **Notices:**
-    * `usp_Get_Notices-V1/V2`: Retrieves notices. (V2 includes search and validity)
-    * `usp_POST_Notice-V1/V2`: Posts a new notice. (V2 includes validity)
+    * `usp_Get_Notices`: Retrieves notices. 
+    * `usp_POST_Notice`: Posts a new notice. 
 * **Visitors:**
     * `usp_Get_VisitorLogsWithResidentInfo`: Retrieves visitor logs with resident details.
     * `usp_POST_ManageVisitorLog`: Manages visitor logs (insert, update, delete).
