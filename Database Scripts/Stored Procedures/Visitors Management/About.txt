@@ -1,0 +1,4 @@
+Visitor Management:
+    * Logs visitor information (name, purpose, in/out times).
+    * Provides visitor logs with associated resident information.
+    * Manages visitor logs (insert, update, delete) with audit trails.
