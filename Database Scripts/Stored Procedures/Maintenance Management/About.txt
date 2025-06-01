@@ -1,0 +1,8 @@
+Maintenance Management:
+    * Logs maintenance requests with categories and descriptions.
+    * Tracks maintenance request status (Open, In Progress, Resolved).
+    * Assigns maintenance requests to staff members.
+    * Manages maintenance staff information (insert, update, delete) with audit trails.
+    * Retrieves available maintenance staff based on roles.
+    * Provides a comprehensive view of work assignments.
+    * Updates maintenance request status and adds comments.
