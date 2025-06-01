@@ -1,0 +1,6 @@
+Resident Management:
+    * Stores resident details (name, flat number, contact info, ownership).
+    * Manages resident information (insert, update, delete) with audit trails.
+    * Retrieves resident information based on various criteria.
+    * Provides functionality to get available residents.
+    * Manages resident notifications and retrieves unread notifications.
